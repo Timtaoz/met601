@@ -1,0 +1,30 @@
+.skills {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .skills p {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .skills ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+  }
+  
+  .skills ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+  
+  .skills ul li strong {
+    font-weight: bold;
+  }
+  

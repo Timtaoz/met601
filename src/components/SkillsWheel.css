@@ -1,0 +1,52 @@
+.skills-wheel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .wheel {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    transition: transform 4s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+  
+  .wheel-segment {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform-origin: 100% 100%;
+  }
+  
+  .wheel-segment:nth-child(1) { transform: rotate(0deg)   translate(100%, 0); }
+  .wheel-segment:nth-child(2) { transform: rotate(72deg)  translate(100%, 0); }
+  .wheel-segment:nth-child(3) { transform: rotate(144deg) translate(100%, 0); }
+  .wheel-segment:nth-child(4) { transform: rotate(216deg) translate(100%, 0); }
+  .wheel-segment:nth-child(5) { transform: rotate(288deg) translate(100%, 0); }
+  
+  .spin-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spin-button:hover {
+    background-color: #555;
+  }
+  

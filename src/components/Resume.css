@@ -1,0 +1,35 @@
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .resume h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .resume p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .download-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Ensure the button is centered */
+  }
+    
+  .download-button:hover {
+    background-color: #555;
+  }
+  

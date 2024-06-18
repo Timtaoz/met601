@@ -1,0 +1,49 @@
+.interests {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .interests h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .interests-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .interest-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .interest-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .interest-card h3 {
+    margin-top: 1rem;
+    font-size: 1.5em;
+  }
+  
+  .interest-card p {
+    margin-top: 0.5rem;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .interest-card:hover {
+    transform: translateY(-5px);
+  }
+  
